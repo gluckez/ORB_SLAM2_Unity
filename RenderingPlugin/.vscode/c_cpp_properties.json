@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/*",
+                "${workspaceFolder}/",
+                "${workspaceFolder}/ORB_SLAM2/include",
+                "${workspaceFolder}/ORB_SLAM2/Thirdparty/DBoW2/DBoW2",
+                "${workspaceFolder}/ORB_SLAM2/Thirdparty/DBoW2/DUtils",
+                "${workspaceFolder}/ORB_SLAM2/Thirdparty/g2o",
+                "${workspaceFolder}/ORB_SLAM2/Thirdparty/g2o/g2o/core",
+                "${workspaceFolder}/ORB_SLAM2/Thirdparty/g2o/g2o/solvers",
+                "${workspaceFolder}/ORB_SLAM2/Thirdparty/g2o/g2o/stuff",
+                "${workspaceFolder}/ORB_SLAM2/Thirdparty/g2o/g2o/types",
+                "${workspaceFolder}/videoInput"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "configurationProvider": "vector-of-bool.cmake-tools",
+            "compilerArgs": []
+        }
+    ],
+    "version": 4
+}

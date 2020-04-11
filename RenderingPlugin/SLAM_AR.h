@@ -3,7 +3,7 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <mutex>
 
-#include <System.h>
+#include <ORB_SLAM2/include/System.h>
 
 //#define OPENCV_VIDEO_W 480
 //#define OPENCV_VIDEO_H 540

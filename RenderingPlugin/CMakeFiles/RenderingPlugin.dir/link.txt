@@ -1,0 +1,2 @@
+/usr/bin/ar qc libRenderingPlugin.a  CMakeFiles/RenderingPlugin.dir/RenderingPlugin.cpp.o
+/usr/bin/ranlib libRenderingPlugin.a

@@ -51,7 +51,20 @@ Thanks to:
 #ifndef _WIN32_WINNT
 	#   define _WIN32_WINNT 0x501
 #endif
-#include <windows.h>
+
+#ifndef DWORD
+#define WINAPI
+typedef unsigned long DWORD;
+typedef short WCHAR;
+typedef void * HANDLE;
+typedef long GUID;
+typedef long HRESULT;
+#define __cdecl __attribute__((__cdecl__))
+#define MAX_PATH    PATH_MAX
+typedef unsigned char BYTE;
+typedef unsigned short WORD;
+typedef unsigned int BOOL;
+#endif
 
 
 //Example Usage

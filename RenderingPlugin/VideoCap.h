@@ -18,7 +18,7 @@
 #endif
 
 #if IMU_IN_IMAGE
-#include "VMG_IMU_Paritycheck\imu_parity_check.h"
+#include "VMG_IMU_Paritycheck/imu_parity_check.h"
 #endif
 
 #define OPENCV 1
@@ -26,10 +26,10 @@
 #endif
 
 #if OPENCV
-#include <opencv2\opencv.hpp>
-#include <opencv2\core\core.hpp>
-#include <opencv2\highgui\highgui.hpp>
-#include <opencv2\imgproc\imgproc.hpp>
+#include <opencv2/opencv.hpp>
+#include <opencv2/core/core.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
 
 //image size for ar mod rendering
 //current PTAM-demo machine camera setup is flipped 90.
