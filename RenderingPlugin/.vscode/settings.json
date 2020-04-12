@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "chrono": "cpp",
+        "functional": "cpp",
+        "new": "cpp",
+        "type_traits": "cpp",
+        "condition_variable": "cpp",
+        "system_error": "cpp"
+    }
+}

@@ -1,7 +1,17 @@
 [
 {
   "directory": "/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin -I/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/videoInput -I/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/ORB_SLAM2/Thirdparty -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/share/OpenCV  -g   -o CMakeFiles/RenderingPlugin.dir/RenderingPlugin.cpp.o -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/RenderingPlugin.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DRenderingPlugin_EXPORTS -isystem /usr/local/include/opencv4 -I/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin -I/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/videoInput -I/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/ORB_SLAM2 -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/local/include/eigen3  -g -fPIC   -std=gnu++11 -o CMakeFiles/RenderingPlugin.dir/RenderingPlugin.cpp.o -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/RenderingPlugin.cpp",
   "file": "/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/RenderingPlugin.cpp"
+},
+{
+  "directory": "/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DRenderingPlugin_EXPORTS -isystem /usr/local/include/opencv4 -I/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin -I/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/videoInput -I/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/ORB_SLAM2 -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/local/include/eigen3  -g -fPIC   -std=gnu++11 -o CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.o -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/SLAM_AR.cpp",
+  "file": "/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/SLAM_AR.cpp"
+},
+{
+  "directory": "/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DRenderingPlugin_EXPORTS -isystem /usr/local/include/opencv4 -I/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin -I/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/videoInput -I/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/ORB_SLAM2 -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/local/include/eigen3  -g -fPIC   -std=gnu++11 -o CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.o -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/VideoCap.cpp",
+  "file": "/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/VideoCap.cpp"
 }
 ]

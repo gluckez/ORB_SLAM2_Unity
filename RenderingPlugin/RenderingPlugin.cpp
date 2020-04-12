@@ -968,13 +968,14 @@ static void DoRendering (const float* worldMatrix, const float* identityMatrix, 
 	{
 		src_rgba = video_cap_ptr->get_left_rgba();
 		cv::Mat src = video_cap_ptr->src;
-		cv::Mat src_right = video_cap_ptr->src_right;
-		SLAM_ptr->update(src,src_right);
+		//cv::Mat src_right = video_cap_ptr->src_right;
+		//SLAM_ptr->update(src,src_right);
+		SLAM_ptr->update(src);
 	}
-	else if (index == 1)
-	{
-		src_rgba = video_cap_ptr->get_right_rgba();
-	}
+	// else if (index == 1)
+	// {
+	// 	src_rgba = video_cap_ptr->get_right_rgba();
+	// }
 
 	if(src_rgba.empty())
 	{

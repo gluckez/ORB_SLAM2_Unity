@@ -547,6 +547,60 @@ RenderingPlugin.cpp.s:
 	$(MAKE) -f CMakeFiles/RenderingPlugin.dir/build.make CMakeFiles/RenderingPlugin.dir/RenderingPlugin.cpp.s
 .PHONY : RenderingPlugin.cpp.s
 
+SLAM_AR.o: SLAM_AR.cpp.o
+
+.PHONY : SLAM_AR.o
+
+# target to build an object file
+SLAM_AR.cpp.o:
+	$(MAKE) -f CMakeFiles/RenderingPlugin.dir/build.make CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.o
+.PHONY : SLAM_AR.cpp.o
+
+SLAM_AR.i: SLAM_AR.cpp.i
+
+.PHONY : SLAM_AR.i
+
+# target to preprocess a source file
+SLAM_AR.cpp.i:
+	$(MAKE) -f CMakeFiles/RenderingPlugin.dir/build.make CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.i
+.PHONY : SLAM_AR.cpp.i
+
+SLAM_AR.s: SLAM_AR.cpp.s
+
+.PHONY : SLAM_AR.s
+
+# target to generate assembly for a file
+SLAM_AR.cpp.s:
+	$(MAKE) -f CMakeFiles/RenderingPlugin.dir/build.make CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.s
+.PHONY : SLAM_AR.cpp.s
+
+VideoCap.o: VideoCap.cpp.o
+
+.PHONY : VideoCap.o
+
+# target to build an object file
+VideoCap.cpp.o:
+	$(MAKE) -f CMakeFiles/RenderingPlugin.dir/build.make CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.o
+.PHONY : VideoCap.cpp.o
+
+VideoCap.i: VideoCap.cpp.i
+
+.PHONY : VideoCap.i
+
+# target to preprocess a source file
+VideoCap.cpp.i:
+	$(MAKE) -f CMakeFiles/RenderingPlugin.dir/build.make CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.i
+.PHONY : VideoCap.cpp.i
+
+VideoCap.s: VideoCap.cpp.s
+
+.PHONY : VideoCap.s
+
+# target to generate assembly for a file
+VideoCap.cpp.s:
+	$(MAKE) -f CMakeFiles/RenderingPlugin.dir/build.make CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.s
+.PHONY : VideoCap.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -590,6 +644,12 @@ help:
 	@echo "... RenderingPlugin.o"
 	@echo "... RenderingPlugin.i"
 	@echo "... RenderingPlugin.s"
+	@echo "... SLAM_AR.o"
+	@echo "... SLAM_AR.i"
+	@echo "... SLAM_AR.s"
+	@echo "... VideoCap.o"
+	@echo "... VideoCap.i"
+	@echo "... VideoCap.s"
 .PHONY : help
 
 

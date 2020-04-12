@@ -1,8 +1,8 @@
 SRCS = ../RenderingPlugin.cpp
 OBJS = ${SRCS:.cpp=.o}
 UNITY_DEFINES = -DSUPPORT_OPENGL=1 -DUNITY_LINUX=1
-CXXFLAGS = $(UNITY_DEFINES) -O2 -fPIC
-LDFLAGS = -shared -rdynamic
+CXXFLAGS = $(UNITY_DEFINES) -O2 -fPIC --cflags opencv
+LDFLAGS = -shared -rdynamic --libs opencv
 PLUGIN_SHARED = libRenderingPlugin.so
 CXX ?= g++
 

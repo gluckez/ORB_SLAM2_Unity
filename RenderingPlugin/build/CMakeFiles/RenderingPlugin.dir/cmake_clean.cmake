@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/RenderingPlugin.dir/RenderingPlugin.cpp.o"
+  "CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.o"
+  "CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.o"
   "libRenderingPlugin.pdb"
-  "libRenderingPlugin.a"
+  "libRenderingPlugin.so"
 )
 
 # Per-language clean rules from dependency scanning.

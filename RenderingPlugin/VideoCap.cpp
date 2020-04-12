@@ -108,7 +108,7 @@ bool VideoSource::read_calib()
 	my2.create(OPENCV_VIDEO_W, OPENCV_VIDEO_H, CV_16S);
 #endif
 
-	FileStorage fs("./save_param/calib_para.yml", CV_STORAGE_READ);
+	FileStorage fs("./save_param/calib_para.yml", cv::FileStorage::READ);
 	if (fs.isOpened())
 	{
 		fs["MX1"] >> mx1;
@@ -170,7 +170,7 @@ Mat VideoSource::get_left_rgba()
 		return src_rgba;
 	}
 
-	cv::cvtColor(src, src_rgba, CV_BGR2RGBA);
+	cv::cvtColor(src, src_rgba, cv::COLOR_BGR2RGBA);
 	return src_rgba;
 }
 
@@ -196,7 +196,7 @@ Mat VideoSource::get_right_rgba()
 		return src_rgba;
 	}
 
-	cv::cvtColor(src_right, src_rgba, CV_BGR2RGBA);
+	cv::cvtColor(src_right, src_rgba, cv::COLOR_BGR2RGBA);
 	return src_rgba;
 }
 

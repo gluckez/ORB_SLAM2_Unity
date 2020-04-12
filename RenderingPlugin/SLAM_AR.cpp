@@ -47,14 +47,14 @@ bool SLAM_AR::init()
 {
 	string path_save_param = "./save_param/calib_para.yml";
 	string path_vocabulary = "./Vocabulary/ORBvoc.bin";
-	string path_setting = "./stereo_unity.yaml";
+	string path_setting = "./mono_unity.yaml";
 
 	mx1.create(OPENCV_VIDEO_H, OPENCV_VIDEO_W, CV_16S);
 	my1.create(OPENCV_VIDEO_H, OPENCV_VIDEO_W, CV_16S);
 	mx2.create(OPENCV_VIDEO_H, OPENCV_VIDEO_W, CV_16S);
 	my2.create(OPENCV_VIDEO_H, OPENCV_VIDEO_W, CV_16S);
 
-	cv::FileStorage fs(path_save_param, CV_STORAGE_READ);
+	cv::FileStorage fs(path_save_param, cv::FileStorage::READ);
 	fs["MX1"] >> mx1;
 	fs["MX2"] >> mx2;
 	fs["MY1"] >> my1;
@@ -65,8 +65,8 @@ bool SLAM_AR::init()
 	cv::Mat mx, my;
 	cv::convertMaps(mx1, my1, mx, my, CV_32FC1);
 
-	cv::Mat mx_r, my_r;
-	cv::convertMaps(mx2, my2, mx_r, my_r, CV_32FC1);
+	// cv::Mat mx_r, my_r;
+	// cv::convertMaps(mx2, my2, mx_r, my_r, CV_32FC1);
 
 	resize(mx, mx1_half, Size(mx.cols / 2, mx.rows / 2), CV_INTER_LINEAR);
 	mx1_half = mx1_half / 2.0f;
@@ -74,15 +74,15 @@ bool SLAM_AR::init()
 	resize(my, my1_half, Size(my.cols / 2, my.rows / 2), CV_INTER_LINEAR);
 	my1_half = my1_half / 2.0f;
 
-	resize(mx_r, mx2_half, Size(mx_r.cols / 2, mx_r.rows / 2), CV_INTER_LINEAR);
-	mx2_half = mx2_half / 2.0f;
+	// resize(mx_r, mx2_half, Size(mx_r.cols / 2, mx_r.rows / 2), CV_INTER_LINEAR);
+	// mx2_half = mx2_half / 2.0f;
 
-	resize(my_r, my2_half, Size(my_r.cols / 2, my_r.rows / 2), CV_INTER_LINEAR);
-	my2_half = my2_half / 2.0f;
+	// resize(my_r, my2_half, Size(my_r.cols / 2, my_r.rows / 2), CV_INTER_LINEAR);
+	// my2_half = my2_half / 2.0f;
 	//
 
 
-	SLAM_system_ptr = new ORB_SLAM2::System(path_vocabulary, path_setting, ORB_SLAM2::System::STEREO, true);
+	SLAM_system_ptr = new ORB_SLAM2::System(path_vocabulary, path_setting, ORB_SLAM2::System::MONOCULAR, true);
 
 	tframe = 0.0f;
 
@@ -119,11 +119,10 @@ bool SLAM_AR::init()
 	return true;
 }
 
-void SLAM_AR::update(Mat& pSrc, Mat& pSrc_right)
+void SLAM_AR::update(Mat& pSrc)
 {
 	unique_lock<mutex> lock(mMutex);
-	pSrc.copyTo(frame_left);
-	pSrc_right.copyTo(frame_right);
+	pSrc.copyTo(frame_left);	
 
 //	if (!frame_left.empty() && !frame_right.empty())
 //	{
@@ -135,23 +134,45 @@ void SLAM_AR::update(Mat& pSrc, Mat& pSrc_right)
 
 }
 
+// void SLAM_AR::update(Mat& pSrc, Mat& pSrc_right)
+// {
+// 	unique_lock<mutex> lock(mMutex);
+// 	pSrc.copyTo(frame_left);
+// 	pSrc_right.copyTo(frame_right);
+
+// //	if (!frame_left.empty() && !frame_right.empty())
+// //	{
+// //		imshow("left_update", frame_left);
+// //		imshow("right_update", frame_right);
+// //		waitKey();
+// //	}
+
+
+// }
+
 void SLAM_AR::run()
 {
 
 	while (1)
 	{
 
-		if (frame_left.empty() || frame_right.empty())
+		// if (frame_left.empty() || frame_right.empty())
+		// {
+		// 	waitKey(30);
+		// 	continue;
+		// }
+
+		if (frame_left.empty())
 		{
 			waitKey(30);
 			continue;
 		}
 
 		cv::resize(frame_left, frame_down_left, cv::Size(OPENCV_VIDEO_W, OPENCV_VIDEO_H));
-		cv::resize(frame_right, frame_down_right, cv::Size(OPENCV_VIDEO_W, OPENCV_VIDEO_H));
+		//cv::resize(frame_right, frame_down_right, cv::Size(OPENCV_VIDEO_W, OPENCV_VIDEO_H));
 
 		cv::remap(frame_down_left, frame_rectify_left, mx1_half, my1_half, CV_INTER_LINEAR);
-		cv::remap(frame_down_right, frame_rectify_right, mx2_half, my2_half, CV_INTER_LINEAR);
+		//cv::remap(frame_down_right, frame_rectify_right, mx2_half, my2_half, CV_INTER_LINEAR);
 
 		tframe += 0.0003f;
 
@@ -177,10 +198,11 @@ void SLAM_AR::run()
 #ifdef COMPILEDWITHC11
 		std::chrono::steady_clock::time_point t1 = std::chrono::steady_clock::now();
 #else
-		std::chrono::monotonic_clock::time_point t1 = std::chrono::monotonic_clock::now();
+		std::chrono::steady_clock::time_point t1 = std::chrono::steady_clock::now();
 #endif
 
-		mTcw = SLAM_system_ptr->TrackStereo(frame_rectify_left, frame_rectify_right, tframe);
+		//mTcw = SLAM_system_ptr->TrackStereo(frame_rectify_left, frame_rectify_right, tframe);
+		mTcw = SLAM_system_ptr->TrackMonocular(frame_rectify_left, tframe);
 
 
 		//imshow("left", frame_rectify_left);
@@ -190,7 +212,7 @@ void SLAM_AR::run()
 #ifdef COMPILEDWITHC11
 		std::chrono::steady_clock::time_point t2 = std::chrono::steady_clock::now();
 #else
-		std::chrono::monotonic_clock::time_point t2 = std::chrono::monotonic_clock::now();
+		std::chrono::steady_clock::time_point t2 = std::chrono::steady_clock::now();
 #endif
 
 		double ttrack = std::chrono::duration_cast<std::chrono::duration<double> >(t2 - t1).count();

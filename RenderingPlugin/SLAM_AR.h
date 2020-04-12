@@ -1,6 +1,7 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
+#include <opencv2/core/types.hpp>
 #include <mutex>
 
 #include <ORB_SLAM2/include/System.h>
@@ -54,7 +55,8 @@ extern "C"
 		//init function
 		bool init();
 
-		void update(Mat& pSrc, Mat& pSrc_right);
+		//void update(Mat& pSrc, Mat& pSrc_right);
+		void update(Mat& pSrc);
 		void run();
 		void requestFinish();
 		bool checkFinish();

@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/glenn/Source/Repos/ORB_S
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_baf18/fast"
-/usr/bin/make -f CMakeFiles/cmTC_baf18.dir/build.make CMakeFiles/cmTC_baf18.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f6f64/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6f64.dir/build.make CMakeFiles/cmTC_f6f64.dir/build
 make[1]: Entering directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_baf18.dir/testCCompiler.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_baf18.dir/testCCompiler.c.o   -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_baf18
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baf18.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_baf18.dir/testCCompiler.c.o  -o cmTC_baf18 
+Building C object CMakeFiles/cmTC_f6f64.dir/testCCompiler.c.o
+/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_f6f64.dir/testCCompiler.c.o   -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f6f64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6f64.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_f6f64.dir/testCCompiler.c.o  -o cmTC_f6f64 
 make[1]: Leaving directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_be654/fast"
-/usr/bin/make -f CMakeFiles/cmTC_be654.dir/build.make CMakeFiles/cmTC_be654.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_fc53c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fc53c.dir/build.make CMakeFiles/cmTC_fc53c.dir/build
 make[1]: Entering directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_be654.dir/CMakeCCompilerABI.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_be654.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_be654
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be654.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7     -v -rdynamic CMakeFiles/cmTC_be654.dir/CMakeCCompilerABI.c.o  -o cmTC_be654 
+Building C object CMakeFiles/cmTC_fc53c.dir/CMakeCCompilerABI.c.o
+/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_fc53c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_fc53c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc53c.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-gcc-7     -v -rdynamic CMakeFiles/cmTC_fc53c.dir/CMakeCCompilerABI.c.o  -o cmTC_fc53c 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/x86_64-linux-gnu-gcc-7
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_be654' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUTLPRL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_be654 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_be654.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_be654' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fc53c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFi77bH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fc53c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_fc53c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fc53c' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_be654/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_be654.dir/build.make CMakeFiles/cmTC_be654.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_fc53c/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_fc53c.dir/build.make CMakeFiles/cmTC_fc53c.dir/build]
   ignore line: [make[1]: Entering directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_be654.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_be654.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_be654]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be654.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/x86_64-linux-gnu-gcc-7     -v -rdynamic CMakeFiles/cmTC_be654.dir/CMakeCCompilerABI.c.o  -o cmTC_be654 ]
+  ignore line: [Building C object CMakeFiles/cmTC_fc53c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_fc53c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_fc53c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc53c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/x86_64-linux-gnu-gcc-7     -v -rdynamic CMakeFiles/cmTC_fc53c.dir/CMakeCCompilerABI.c.o  -o cmTC_fc53c ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/x86_64-linux-gnu-gcc-7]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_be654' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUTLPRL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_be654 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_be654.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fc53c' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFi77bH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fc53c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_fc53c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccUTLPRL.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFi77bH.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_be654] ==> ignore
+    arg [cmTC_fc53c] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_be654.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_fc53c.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -159,14 +159,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_895e1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_895e1.dir/build.make CMakeFiles/cmTC_895e1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e88bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e88bb.dir/build.make CMakeFiles/cmTC_e88bb.dir/build
 make[1]: Entering directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_895e1.dir/feature_tests.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -std=c11 -o CMakeFiles/cmTC_895e1.dir/feature_tests.c.o   -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_895e1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_895e1.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_895e1.dir/feature_tests.c.o  -o cmTC_895e1 
+Building C object CMakeFiles/cmTC_e88bb.dir/feature_tests.c.o
+/usr/bin/x86_64-linux-gnu-gcc-7   -std=c11 -o CMakeFiles/cmTC_e88bb.dir/feature_tests.c.o   -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e88bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e88bb.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_e88bb.dir/feature_tests.c.o  -o cmTC_e88bb 
 make[1]: Leaving directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
 
 
@@ -179,14 +179,14 @@ make[1]: Leaving directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPl
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_161ae/fast"
-/usr/bin/make -f CMakeFiles/cmTC_161ae.dir/build.make CMakeFiles/cmTC_161ae.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6f3e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f3e1.dir/build.make CMakeFiles/cmTC_6f3e1.dir/build
 make[1]: Entering directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_161ae.dir/feature_tests.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -std=c99 -o CMakeFiles/cmTC_161ae.dir/feature_tests.c.o   -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_161ae
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_161ae.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_161ae.dir/feature_tests.c.o  -o cmTC_161ae 
+Building C object CMakeFiles/cmTC_6f3e1.dir/feature_tests.c.o
+/usr/bin/x86_64-linux-gnu-gcc-7   -std=c99 -o CMakeFiles/cmTC_6f3e1.dir/feature_tests.c.o   -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6f3e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f3e1.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_6f3e1.dir/feature_tests.c.o  -o cmTC_6f3e1 
 make[1]: Leaving directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
 
 
@@ -199,14 +199,14 @@ make[1]: Leaving directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPl
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a280a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a280a.dir/build.make CMakeFiles/cmTC_a280a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_bdbac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bdbac.dir/build.make CMakeFiles/cmTC_bdbac.dir/build
 make[1]: Entering directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a280a.dir/feature_tests.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -std=c90 -o CMakeFiles/cmTC_a280a.dir/feature_tests.c.o   -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a280a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a280a.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_a280a.dir/feature_tests.c.o  -o cmTC_a280a 
+Building C object CMakeFiles/cmTC_bdbac.dir/feature_tests.c.o
+/usr/bin/x86_64-linux-gnu-gcc-7   -std=c90 -o CMakeFiles/cmTC_bdbac.dir/feature_tests.c.o   -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bdbac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdbac.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_bdbac.dir/feature_tests.c.o  -o cmTC_bdbac 
 make[1]: Leaving directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
 
 
@@ -217,28 +217,28 @@ make[1]: Leaving directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPl
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_44801/fast"
-/usr/bin/make -f CMakeFiles/cmTC_44801.dir/build.make CMakeFiles/cmTC_44801.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5f5fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f5fc.dir/build.make CMakeFiles/cmTC_5f5fc.dir/build
 make[1]: Entering directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_44801.dir/testCXXCompiler.cxx.o
-/usr/bin/x86_64-linux-gnu-g++-7     -o CMakeFiles/cmTC_44801.dir/testCXXCompiler.cxx.o -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_44801
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44801.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_44801.dir/testCXXCompiler.cxx.o  -o cmTC_44801 
+Building CXX object CMakeFiles/cmTC_5f5fc.dir/testCXXCompiler.cxx.o
+/usr/bin/x86_64-linux-gnu-g++-7     -o CMakeFiles/cmTC_5f5fc.dir/testCXXCompiler.cxx.o -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_5f5fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f5fc.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_5f5fc.dir/testCXXCompiler.cxx.o  -o cmTC_5f5fc 
 make[1]: Leaving directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a2224/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a2224.dir/build.make CMakeFiles/cmTC_a2224.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_97ecc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97ecc.dir/build.make CMakeFiles/cmTC_97ecc.dir/build
 make[1]: Entering directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a2224.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/x86_64-linux-gnu-g++-7     -o CMakeFiles/cmTC_a2224.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_a2224
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2224.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-g++-7      -v -rdynamic CMakeFiles/cmTC_a2224.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a2224 
+Building CXX object CMakeFiles/cmTC_97ecc.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/x86_64-linux-gnu-g++-7     -o CMakeFiles/cmTC_97ecc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_97ecc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97ecc.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-g++-7      -v -rdynamic CMakeFiles/cmTC_97ecc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_97ecc 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/x86_64-linux-gnu-g++-7
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -250,9 +250,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a2224' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8VH8ds.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a2224 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a2224.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a2224' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_97ecc' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUtRgEm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_97ecc /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_97ecc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_97ecc' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
 
 
@@ -260,14 +260,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a2224/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a2224.dir/build.make CMakeFiles/cmTC_a2224.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_97ecc/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_97ecc.dir/build.make CMakeFiles/cmTC_97ecc.dir/build]
   ignore line: [make[1]: Entering directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_a2224.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/x86_64-linux-gnu-g++-7     -o CMakeFiles/cmTC_a2224.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_a2224]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2224.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/x86_64-linux-gnu-g++-7      -v -rdynamic CMakeFiles/cmTC_a2224.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a2224 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_97ecc.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/x86_64-linux-gnu-g++-7     -o CMakeFiles/cmTC_97ecc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_97ecc]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97ecc.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/x86_64-linux-gnu-g++-7      -v -rdynamic CMakeFiles/cmTC_97ecc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_97ecc ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/x86_64-linux-gnu-g++-7]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a2224' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8VH8ds.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a2224 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a2224.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_97ecc' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUtRgEm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_97ecc /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_97ecc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc8VH8ds.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccUtRgEm.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a2224] ==> ignore
+    arg [cmTC_97ecc] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_a2224.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_97ecc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -344,14 +344,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_486de/fast"
-/usr/bin/make -f CMakeFiles/cmTC_486de.dir/build.make CMakeFiles/cmTC_486de.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ceed3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ceed3.dir/build.make CMakeFiles/cmTC_ceed3.dir/build
 make[1]: Entering directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_486de.dir/feature_tests.cxx.o
-/usr/bin/x86_64-linux-gnu-g++-7    -std=c++1z -o CMakeFiles/cmTC_486de.dir/feature_tests.cxx.o -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_486de
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_486de.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_486de.dir/feature_tests.cxx.o  -o cmTC_486de 
+Building CXX object CMakeFiles/cmTC_ceed3.dir/feature_tests.cxx.o
+/usr/bin/x86_64-linux-gnu-g++-7    -std=c++1z -o CMakeFiles/cmTC_ceed3.dir/feature_tests.cxx.o -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ceed3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ceed3.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_ceed3.dir/feature_tests.cxx.o  -o cmTC_ceed3 
 make[1]: Leaving directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
 
 
@@ -417,14 +417,14 @@ make[1]: Leaving directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPl
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ae2c8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ae2c8.dir/build.make CMakeFiles/cmTC_ae2c8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_bca20/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bca20.dir/build.make CMakeFiles/cmTC_bca20.dir/build
 make[1]: Entering directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ae2c8.dir/feature_tests.cxx.o
-/usr/bin/x86_64-linux-gnu-g++-7    -std=c++14 -o CMakeFiles/cmTC_ae2c8.dir/feature_tests.cxx.o -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ae2c8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae2c8.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_ae2c8.dir/feature_tests.cxx.o  -o cmTC_ae2c8 
+Building CXX object CMakeFiles/cmTC_bca20.dir/feature_tests.cxx.o
+/usr/bin/x86_64-linux-gnu-g++-7    -std=c++14 -o CMakeFiles/cmTC_bca20.dir/feature_tests.cxx.o -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bca20
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bca20.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_bca20.dir/feature_tests.cxx.o  -o cmTC_bca20 
 make[1]: Leaving directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
 
 
@@ -490,14 +490,14 @@ make[1]: Leaving directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPl
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ec9cc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ec9cc.dir/build.make CMakeFiles/cmTC_ec9cc.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1cea5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1cea5.dir/build.make CMakeFiles/cmTC_1cea5.dir/build
 make[1]: Entering directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ec9cc.dir/feature_tests.cxx.o
-/usr/bin/x86_64-linux-gnu-g++-7    -std=c++11 -o CMakeFiles/cmTC_ec9cc.dir/feature_tests.cxx.o -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ec9cc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec9cc.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_ec9cc.dir/feature_tests.cxx.o  -o cmTC_ec9cc 
+Building CXX object CMakeFiles/cmTC_1cea5.dir/feature_tests.cxx.o
+/usr/bin/x86_64-linux-gnu-g++-7    -std=c++11 -o CMakeFiles/cmTC_1cea5.dir/feature_tests.cxx.o -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1cea5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cea5.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_1cea5.dir/feature_tests.cxx.o  -o cmTC_1cea5 
 make[1]: Leaving directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
 
 
@@ -563,14 +563,14 @@ make[1]: Leaving directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPl
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_329e1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_329e1.dir/build.make CMakeFiles/cmTC_329e1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5ee3d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ee3d.dir/build.make CMakeFiles/cmTC_5ee3d.dir/build
 make[1]: Entering directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_329e1.dir/feature_tests.cxx.o
-/usr/bin/x86_64-linux-gnu-g++-7    -std=c++98 -o CMakeFiles/cmTC_329e1.dir/feature_tests.cxx.o -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_329e1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_329e1.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_329e1.dir/feature_tests.cxx.o  -o cmTC_329e1 
+Building CXX object CMakeFiles/cmTC_5ee3d.dir/feature_tests.cxx.o
+/usr/bin/x86_64-linux-gnu-g++-7    -std=c++98 -o CMakeFiles/cmTC_5ee3d.dir/feature_tests.cxx.o -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5ee3d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ee3d.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_5ee3d.dir/feature_tests.cxx.o  -o cmTC_5ee3d 
 make[1]: Leaving directory '/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/build/CMakeFiles/CMakeTmp'
 
 

@@ -81,26 +81,94 @@ CMakeFiles/RenderingPlugin.dir/RenderingPlugin.cpp.o.provides: CMakeFiles/Render
 CMakeFiles/RenderingPlugin.dir/RenderingPlugin.cpp.o.provides.build: CMakeFiles/RenderingPlugin.dir/RenderingPlugin.cpp.o
 
 
+CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.o: CMakeFiles/RenderingPlugin.dir/flags.make
+CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.o: SLAM_AR.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.o -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/SLAM_AR.cpp
+
+CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/SLAM_AR.cpp > CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.i
+
+CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/SLAM_AR.cpp -o CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.s
+
+CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.o.requires:
+
+.PHONY : CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.o.requires
+
+CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.o.provides: CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RenderingPlugin.dir/build.make CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.o.provides.build
+.PHONY : CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.o.provides
+
+CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.o.provides.build: CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.o
+
+
+CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.o: CMakeFiles/RenderingPlugin.dir/flags.make
+CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.o: VideoCap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.o -c /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/VideoCap.cpp
+
+CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/VideoCap.cpp > CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.i
+
+CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/VideoCap.cpp -o CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.s
+
+CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.o.requires:
+
+.PHONY : CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.o.requires
+
+CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.o.provides: CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RenderingPlugin.dir/build.make CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.o.provides.build
+.PHONY : CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.o.provides
+
+CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.o.provides.build: CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.o
+
+
 # Object files for target RenderingPlugin
 RenderingPlugin_OBJECTS = \
-"CMakeFiles/RenderingPlugin.dir/RenderingPlugin.cpp.o"
+"CMakeFiles/RenderingPlugin.dir/RenderingPlugin.cpp.o" \
+"CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.o" \
+"CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.o"
 
 # External object files for target RenderingPlugin
 RenderingPlugin_EXTERNAL_OBJECTS =
 
-libRenderingPlugin.a: CMakeFiles/RenderingPlugin.dir/RenderingPlugin.cpp.o
-libRenderingPlugin.a: CMakeFiles/RenderingPlugin.dir/build.make
-libRenderingPlugin.a: CMakeFiles/RenderingPlugin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libRenderingPlugin.a"
-	$(CMAKE_COMMAND) -P CMakeFiles/RenderingPlugin.dir/cmake_clean_target.cmake
+libRenderingPlugin.so: CMakeFiles/RenderingPlugin.dir/RenderingPlugin.cpp.o
+libRenderingPlugin.so: CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.o
+libRenderingPlugin.so: CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.o
+libRenderingPlugin.so: CMakeFiles/RenderingPlugin.dir/build.make
+libRenderingPlugin.so: /usr/local/lib/libopencv_dnn.so.4.3.0
+libRenderingPlugin.so: /usr/local/lib/libopencv_gapi.so.4.3.0
+libRenderingPlugin.so: /usr/local/lib/libopencv_highgui.so.4.3.0
+libRenderingPlugin.so: /usr/local/lib/libopencv_ml.so.4.3.0
+libRenderingPlugin.so: /usr/local/lib/libopencv_objdetect.so.4.3.0
+libRenderingPlugin.so: /usr/local/lib/libopencv_photo.so.4.3.0
+libRenderingPlugin.so: /usr/local/lib/libopencv_stitching.so.4.3.0
+libRenderingPlugin.so: /usr/local/lib/libopencv_video.so.4.3.0
+libRenderingPlugin.so: /usr/local/lib/libopencv_videoio.so.4.3.0
+libRenderingPlugin.so: /usr/local/lib/libopencv_imgcodecs.so.4.3.0
+libRenderingPlugin.so: /usr/local/lib/libopencv_calib3d.so.4.3.0
+libRenderingPlugin.so: /usr/local/lib/libopencv_features2d.so.4.3.0
+libRenderingPlugin.so: /usr/local/lib/libopencv_flann.so.4.3.0
+libRenderingPlugin.so: /usr/local/lib/libopencv_imgproc.so.4.3.0
+libRenderingPlugin.so: /usr/local/lib/libopencv_core.so.4.3.0
+libRenderingPlugin.so: CMakeFiles/RenderingPlugin.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/glenn/Source/Repos/ORB_SLAM2_Unity/RenderingPlugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libRenderingPlugin.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RenderingPlugin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/RenderingPlugin.dir/build: libRenderingPlugin.a
+CMakeFiles/RenderingPlugin.dir/build: libRenderingPlugin.so
 
 .PHONY : CMakeFiles/RenderingPlugin.dir/build
 
 CMakeFiles/RenderingPlugin.dir/requires: CMakeFiles/RenderingPlugin.dir/RenderingPlugin.cpp.o.requires
+CMakeFiles/RenderingPlugin.dir/requires: CMakeFiles/RenderingPlugin.dir/SLAM_AR.cpp.o.requires
+CMakeFiles/RenderingPlugin.dir/requires: CMakeFiles/RenderingPlugin.dir/VideoCap.cpp.o.requires
 
 .PHONY : CMakeFiles/RenderingPlugin.dir/requires
 
